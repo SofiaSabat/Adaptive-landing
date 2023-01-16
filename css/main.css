@@ -1,0 +1,1076 @@
+@import '/font/font.css';
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  transform: scale(1.2);
+}
+
+body {
+  font-family: "Montserrat-Bold";
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px 5px rgb(173, 162, 162);
+}
+
+.header {
+  color: white;
+}
+
+.header-bg {
+  background: url(/img/desktop/Headaer\ and\ Promo.png);
+  width: 100%;
+  height: 700px;
+}
+
+.container {
+  margin: 0px 250px;
+}
+
+.header-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+
+.header-logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.header-btn {
+  font-family: "Montserrat-Regular";
+  margin-right: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 17px;
+  color: #F7F3F2;
+}
+
+.btn-in {
+  margin-right: 20px;
+}
+
+.btn-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  width: 90px;
+  height: 36px;
+}
+
+.header-center-text {
+  margin-top: 153px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-motto {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  margin-bottom: 28px;
+  width: 470px;
+  text-align: center;
+}
+
+.header-text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 33px;
+}
+
+.light-text {
+  color: #F7F3F2;
+  font-family: "Roboto-Light";
+}
+
+.header-button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  width: 225px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pink-btn {
+  background: #FF4E50;
+  border-radius: 40px;
+}
+
+.card-box {
+  margin-top: 95px;
+}
+
+.subtitle {
+  margin-bottom: 35px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  color: #444444;
+}
+
+.card-box-container {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin: 0 250px;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.first-card {
+  background: url(/img/desktop/Step\ 1\ image.png);
+}
+
+.second-card {
+  background: url(/img/desktop/Step\ 2\ image\ .png);
+}
+
+.third-card {
+  background: url(/img/desktop/Step\ 3\ image.png);
+}
+
+.card-wrapper {
+  margin: 0px 25px 20px 25px;
+}
+
+.card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat-Regular";
+  width: 70px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  width: 250px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  color: #E3E3E3;
+}
+
+.user-container {
+  margin: 0 250px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 95px;
+}
+
+.user-wrapper {
+  display: flex;
+  margin-top: 35px;
+}
+
+.user-btn {
+  height: 40px;
+}
+
+.user-item {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.user-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.user-img {
+  margin-bottom: 18px;
+  position: relative;
+}
+
+.pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  top: 87px;
+  left: 87px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  background-color: #FF4E50;
+}
+
+.user-name {
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #444444;
+}
+
+.user-descr {
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #666666;
+}
+
+.user-btn {
+  width: 180px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #FF4E50;
+  border-radius: 40px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.user-btn a {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FF4E50;
+}
+
+.gallery {
+  margin-top: 95px;
+}
+
+.galerry__wrapper {
+  margin: 0 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img1 {
+  background: url(/img/desktop/Sport.png);
+  height: 310px;
+  width: 300px;
+}
+
+.img2 {
+  background: url(/img/desktop/Healath.png);
+  height: 310px;
+  width: 300px;
+}
+
+.img3 {
+  background: url(/img/desktop/Extreme.png);
+  height: 310px;
+  width: 300px;
+}
+
+.img4 {
+  background: url(/img/desktop/Games.png);
+  height: 310px;
+  width: 300px;
+}
+
+.img5 {
+  background: url(/img/desktop/Culture.png);
+  height: 310px;
+  width: 620px;
+}
+
+.img6 {
+  background: url(/img/desktop/Culture\ Copy.png);
+  height: 310px;
+  width: 620px;
+}
+
+.img7 {
+  background: url(/img/desktop/Games\ Copy.png);
+  height: 310px;
+  width: 300px;
+}
+
+.first-row,
+.second-row,
+.third-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.first-row__item,
+.second-row__item,
+.third-row__item {
+  position: relative;
+}
+
+.first-row__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.first-row__text,
+.second-row__text,
+.third-row__text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.second-row__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.second-row__text {
+  left: 35%;
+}
+
+.third-row__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.third-row__text {
+  left: 35%;
+}
+
+.form-container {
+  margin: 0 250px;
+}
+
+.form-box {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-box__text {
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 14px;
+  color: #666666;
+}
+.form-box__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.form-box__wrapper input {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.073313);
+  padding: 2px;
+}
+.form-box__btn {
+  width: 172px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.footer {
+  margin: 100px 250px 0px 250px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container__col {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+}
+.footer-container__el {
+  display: flex;
+  flex-direction: column;
+}
+
+.el {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  color: #CCCCCC;
+}
+
+.col-name {
+  font-family: "Montserrat-Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FF4E50;
+}
+
+.col-company__item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #999999;
+}
+.col-company__item_bold {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+  margin-bottom: 11px;
+}
+
+.col-el {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+}
+
+@media (max-width: 939px) {
+  .wrapper {
+    width: 768px;
+  }
+  .header {
+    color: white;
+  }
+  .header-bg {
+    background: url(/img/tablet/Background.png);
+  }
+  .container {
+    margin: 0px 138px;
+  }
+  .header-bar {
+    padding-top: 45px;
+  }
+  .btn-in {
+    margin-right: 20px;
+  }
+  .header-center-text {
+    margin-top: 156px;
+  }
+  .card-box {
+    margin-top: 95px;
+  }
+  .card-box-container {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .card {
+    width: 236px;
+    height: 400px;
+  }
+  .first-card {
+    background: url(/img/tablet/Step\ 1\ image.png);
+  }
+  .second-card {
+    background: url(/img/tablet/Step\ 2.png);
+  }
+  .third-card {
+    background: url(/img/tablet/Step\ 3\ image\ .png);
+  }
+  .card-wrapper {
+    margin: 0px 20px 20px 20px;
+  }
+  .card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat-Regular";
+    width: 70px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+  }
+  .card-text {
+    width: 196px;
+  }
+  .user-container {
+    margin: 0 138px;
+    height: 605px;
+    margin-top: 95px;
+  }
+  .user-wrapper {
+    display: flex;
+    width: 492px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    height: 462px;
+    margin-bottom: 35px;
+  }
+  .user-item {
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+  .user-item:not(:last-child) {
+    margin-right: 5px;
+  }
+  .user-btn {
+    height: 40px;
+  }
+  .gallery {
+    margin-top: 95px;
+  }
+  .galerry__wrapper {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .img1 {
+    background: url(/img/tablet/Sport.png);
+    height: 310px;
+    width: 236px;
+  }
+  .img2 {
+    background: url(/img/tablet/Healath.png);
+    height: 310px;
+    width: 236px;
+  }
+  .img3 {
+    background: url(/img/tablet/Extreme.png);
+    height: 310px;
+    width: 236px;
+  }
+  .img4 {
+    background: url(/img/tablet/Games.png);
+    height: 310px;
+    width: 236px;
+  }
+  .img5 {
+    background: url(/img/tablet/Culture.png);
+    height: 310px;
+    width: 492px;
+  }
+  .img6 {
+    background: url(/img/tablet/Culture\ Copy.png);
+    height: 310px;
+    width: 492px;
+  }
+  .img7 {
+    background: url(/img/tablet/Games\ Copy.png);
+    height: 310px;
+    width: 236px;
+  }
+  .first-row,
+.second-row,
+.third-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  .first-row__item:not(:last-child) {
+    margin-right: 20px;
+  }
+  .first-row__text,
+.second-row__text,
+.third-row__text {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+  .second-row__item:not(:last-child) {
+    margin-right: 20px;
+  }
+  .second-row__text {
+    left: 35%;
+  }
+  .third-row__item:not(:last-child) {
+    margin-right: 20px;
+  }
+  .third-row__text {
+    left: 35%;
+  }
+  .form-container {
+    margin: 95px 145px 0px 145px;
+  }
+  .form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .form-box__text {
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    color: #666666;
+  }
+  .form-box__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  .form-box__wrapper input {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.073313);
+    padding: 2px;
+  }
+  .form-box__btn {
+    width: 172px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .footer {
+    margin: 100px 40px 20px 40px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-container__col {
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+  }
+  .footer-container__el {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper {
+    width: 310px;
+  }
+  .subtitle {
+    margin-bottom: 15px;
+    width: 280px;
+    text-align: center;
+  }
+  .header-bar {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .header-logo {
+    margin-top: 95px;
+  }
+  .header-bg {
+    background: url(/img/mobile/Background\ .png);
+    background-repeat: no-repeat;
+    height: 550px;
+  }
+  .container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-in {
+    margin-right: 20px;
+  }
+  .header-center-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 270px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+  }
+  .header-motto {
+    font-size: 30px;
+    line-height: 37px;
+    width: 270px;
+  }
+  .header-text {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .card-box {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .subtitle {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .card-box-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 300px;
+    height: 240px;
+    text-align: start;
+    margin: 0px 10px;
+  }
+  .card:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .first-card {
+    background: url(/img/mobile/Step\ 1.png);
+  }
+  .second-card {
+    background: url(/img/mobile/Step\ 2.png);
+  }
+  .third-card {
+    background: url(/img/mobile/Step\ 3.png);
+  }
+  .card-wrapper {
+    margin: 0px 20px 20px 20px;
+  }
+  .card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat-Regular";
+    width: 70px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+  }
+  .card-text {
+    width: 250px;
+  }
+  .user-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    height: 1000px;
+  }
+  .user-wrapper {
+    display: flex;
+    width: 100%;
+    height: 1200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 35px;
+  }
+  .user-item {
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  .user-item:not(:last-child) {
+    margin-right: 0px;
+  }
+  .user-name {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .user-descr {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .user-btn {
+    width: 280px;
+    height: 40px;
+    margin-top: 0px;
+    align-self: center;
+  }
+  .gallery {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .galerry__wrapper {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .img1 {
+    background: url(/img/mobile/Sport.png);
+    height: 120px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .img2 {
+    background: url(/img/mobile/Healath.png);
+    height: 120px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .img3 {
+    background: url(/img/mobile/Extreme.png);
+    height: 120px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .img4 {
+    background: url(/img/mobile/Games.png);
+    height: 120px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .img5 {
+    background: url(/img/mobile/Culture.png);
+    height: 120px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .img6 {
+    background: url(/img/mobile/Culture\ Copy.png);
+    height: 120px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .img7 {
+    background: url(/img/mobile/Games\ Copy.png);
+    height: 120px;
+    width: 300px;
+  }
+  .first-row,
+.second-row,
+.third-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .first-row__item:not(:last-child) {
+    margin-right: 0px;
+  }
+  .first-row__text,
+.second-row__text,
+.third-row__text {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+  .second-row__item:not(:last-child) {
+    margin-right: 0px;
+  }
+  .second-row__text {
+    left: 20%;
+  }
+  .third-row__item:not(:last-child) {
+    margin-right: 0px;
+  }
+  .third-row__text {
+    left: 20%;
+  }
+  .form-container {
+    margin: 25px 20px 0px 20px;
+  }
+  .form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .form-box__text {
+    margin-bottom: 15px;
+    width: 280px;
+  }
+  .form-box__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .form-box__wrapper input {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+    width: 280px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.073313);
+    padding: 2px;
+    margin-bottom: 10px;
+  }
+  .form-box__btn {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .footer {
+    margin: 40px 0px 22px 0px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+  }
+  .footer-container__el {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .el {
+    margin-bottom: 14px;
+    text-align: center;
+  }
+  .col-name {
+    margin-bottom: 15px;
+  }
+  .col-company {
+    margin-bottom: 6px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .col-company li {
+    margin-right: 5px;
+  }
+  .col-company__item_bold {
+    width: 100%;
+    text-align: center;
+  }
+  .col-el {
+    margin-bottom: 14px;
+  }
+}

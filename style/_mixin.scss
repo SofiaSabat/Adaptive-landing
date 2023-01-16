@@ -1,0 +1,10 @@
+@mixin flex-centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin font-small{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
